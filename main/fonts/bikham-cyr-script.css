@@ -1,0 +1,12 @@
+/*****************************
+ All rights reserved.
+ AllFont.ru (c) 2011-2015
+ *****************************/
+@font-face {
+    font-family: 'Bikham Cyr Script';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Bikham Cyr Script'), local('BikhamCyrScript-Regular'),
+        url(http://allfont.ru/cache/fonts/bikham-cyr-script_61afe4b01dfe3e2b98ec512fe1aece7a.woff) format('woff'),
+        url(http://allfont.ru/cache/fonts/bikham-cyr-script_61afe4b01dfe3e2b98ec512fe1aece7a.ttf) format('truetype');
+}
