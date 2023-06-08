@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>Семейне Древо</title>
+
+	<script src="main/js/leader-line.min.js" defer></script>
+	<!-- <script src="main/js/swup.min.js" defer></script> -->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js"></script>
+
+	<script src="main/libs/gsap/gsap.min.js" defer></script>
+	<script src="main/libs/gsap/ScrollTrigger.min.js" defer></script>
+	<script src="main/libs/gsap/ScrollSmoother.min.js" defer></script>
+
+	<link rel="stylesheet" href="main/css/tree.css">
+	<script src="main/js/tree.js" defer></script>
+
+</head>
+<body id="swup" class="transition-fade">
+
+	<div class="div_main">
+
+		<table class="tbl1">
+			<tr class="col1">
+				<td class="name_td1" id="five01"><a href="person/no_info.html">Марушко<br>Дмитрий</a></td>
+				<td class="space_td_norm"></td>
+				<td class="name_td1" id="five02"><a href="person/no_info.html">Марушко<br>Юлия</a></td>
+				<td class="space_td_norm"></td>
+				<td class="name_td1" id="five03"><a href="person/Ahremenko_Olya.html">Ахременко<br>Оля</a></td>
+				<td class="space_td_min"></td>
+				<td class="name_td1" id="five04"><a href="person/Ahremenko_Aleksey_ml.html">Ахременко<br>Алексей</a></td>
+				<td class="space_td_norm"></td>
+				<td class="name_td1" id="five05"><a href="person/Kyrmanova_Mahabbat.html">Курманова<br>Махаббат</a></td>
+				<td class="space_td_norm"></td>
+				<td class="name_td1" id="five06"><a href="person/Zelenchuk_Tamara.html">Зеленчук<br>Тамара</a></td>
+				<td class="space_td_norm"></td>
+				<td class="name_td1" id="five07"><a href="person/Kim_Evgeniy.html">Ким<br>Евгений</a></td>
+				<td class="space_td_min"></td>
+				<td class="name_td1" id="five08"><a href="person/Kim_Olga.html">Ким<br>Ольга</a></td>
+				<td class="space_td_norm"></td>
+				<td class="name_td1" id="five09"><a href="person/Zaharchuk_Sergey_ml.html">Захарчук<br>Сергей</a></td>
+				<td class="space_td_min"></td>
+				<td class="name_td1" id="five10"><a href="person/Zaharchuk_Andrey.html">Захарчук<br>Андрей</a></td>
+				<td class="space_td_norm"></td>
+				<td class="name_td1" id="five11"><a href="person/Zaharchuk_Dariya.html">Захарчук<br>Дарья</a></td>
+				<td class="space_td_min"></td>
+				<td class="name_td1" id="five12"><a href="person/Zaharchuk_Anton.html">Захарчук<br>Антон</a></td>
+				<td class="space_td_min"></td>
+				<td class="name_td1" id="five13"><a href="person/Zaharchuk_Anna.html">Захарчук<br>Анна</a></td>
+			</tr>
+		</table>
+		<!-- <table>
+			<tr>
+				<td class="spc_tbl"><p></p></td>
+			</tr>
+		</table> -->
+
+		<table class="tbl2">
+			<tr class="col2">
+				<td class="name_td2" id="four01"><a href="person/Maryshko_Sergey.html">Марушко<br>Сергей</a></td>
+				<td class="space_td_min"></td>
+				<td class="name_td2" id="four02"><a href="person/Maryshko_Alla.html">Марушко<br>Алла</a></td>
+				<td class="space_td_norm"></td>
+				<td class="name_td2" id="four03"><a href="person/Ahremenko_Aleksey.html">Ахременко<br>Алексей</a></td>
+				<td class="space_td_min"></td>
+				<td class="name_td2" id="four04"><a href="person/Ahremenko_Dmitriy.html">Ахременко<br>Дмитрий</a></td>
+				<td class="space_td_norm"></td>
+				<td class="name_td2" id="four05"><a href="person/Kyrmanova_Elena.html">Курманова<br>Елена</a></td>
+				<td class="space_td_norm"></td>
+				<td class="name_td2" id="four06"><a href="person/Zelenchyk_Georgiy.html">Зеленчук<br>Георгий</a></td>
+				<td class="space_td_min"></td>
+				<td class="name_td2" id="four07"><a href="person/Zelenchyk_Irina.html">Зеленчук<br>Ирина</a></td>
+				<td class="space_td_norm"></td>
+				<td class="name_td2" id="four08"><a href="person/Zaharchuk_Sergey.html">Захарчук<br>Сергей</a></td>
+				<td class="space_td_min"></td>
+				<td class="name_td2" id="four09"><a href="person/Zaharchuk_Evgeniy.html">Захарчук<br>Евгений</a></td>
+			</tr>
+		</table>
+
+		<table class="tbl3">
+			<tr class="col3">
+				<td class="name_td3" id="three01"><a href="person/no_info.html">Захарчук<br>Адик</a></td>
+				<td class="space_td_min"></td>
+				<td class="name_td3" id="three02"><a href="person/Zaharchuk_Galina.html">Захарчук<br>Галина</a></td>
+				<td class="space_td_min"></td>
+				<td class="name_td3" id="three03"><a href="person/no_info.html">Захарчук<br>Анатолий</a></td>
+				<td class="space_td_norm"></td>
+				<td class="name_td3" id="three04"><a href="person/Zaharchuk_Tamara.html">Захарчук<br>Тамара</a></td>
+				<td class="space_td_min"></td>
+				<td class="name_td3" id="three05"><a href="person/Zaharchuk_Sofiya.html">Захарчук<br>София</a></td>
+				<td class="space_td_min"></td>
+				<td class="name_td3" id="three06"><a href="person/Zaharchuk_Lidiya.html">Захарчук<br>Лидия</a></td>
+				<td class="space_td_min"></td>
+				<td class="name_td3" id="three07"><a href="person/Zaharchuk_Evgeniya.html">Захарчук<br>Евгения</a></td>
+				<td class="space_td_min"></td>
+				<td class="name_td3" id="three08"><a href="person/Zaharchuk_Boris.html">Захарчук<br>Борис</a></td>
+				<td class="space_td_fam" id="three08_09"></td>
+				<td class="name_td3" id="three09"><a href="person/Stashenko_Nina.html">Сташенко<br>Нина</a></td>
+				<td class="space_td_min"></td>
+				<td class="name_td3" id="three10"><a href="person/Stashenko_Nikolay.html">Сташенко<br>Николай</a></td>
+			</tr>
+		</table>
+
+		<table class="tbl4">
+			<tr class="col4">
+				<!-- <td class="name_td4" id="two01"><a href="person/no_info.html">Петро<br>Захарчук</a></td>
+				<td class="space_td_min"></td> -->
+				<td class="name_td4" id="two02"><a href="person/Zaharchuk_Vasiliy.html">Захарчук<br>Василий</a></td>
+				<td class="space_td_norm"></td>
+				<td class="name_td4" id="two03"><a href="person/no_info.html">Захарчук<br>Марина</a></td>
+				<td class="space_td_min"></td>
+				<td class="name_td4" id="two04"><a href="person/no_info.html">Захарчук<br>Маланья</a></td>
+				<td class="space_td_min"></td>
+				<td class="name_td4" id="two05"><a href="person/no_info.html">Захарчук<br>Федора</a></td>
+				<td class="space_td_min"></td>
+				<td class="name_td4" id="two06"><a href="person/Zaharchuk_Nikodim.html">Захарчук<br>Никодим</a></td>
+				<td class="space_td_fam" id="two06_07"></td>
+				<td class="name_td4" id="two07"><a href="person/Yrkovskaya_Zina.html">Юрковская<br>Зинаида</a></td>
+				<td class="space_td_min"></td>
+				<td class="name_td4" id="two08"><a href="person/Yrkovskiy_Boris.html">Юрковский<br>Борис</a></td>
+				<td class="space_td_min"></td>
+				<td class="name_td4" id="two09"><a href="person/Yrkovskaya_Sofiya.html">Юрковская<br>София</a></td>
+				<td class="space_td_norm"></td>
+				<td class="name_td4" id="two10"><a href="person/Stashenko_Andrey.html">Сташенко<br>Андрей</a></td>
+				<td class="space_td_fam" id="two10_11"></td>
+				<td class="name_td4" id="two11"><a href="person/Lyahovetskaya_Anna.html">Ляховецкая<br>Анна</a></td>
+
+			</tr>
+		</table>
+
+		<table class="tbl5">
+			<tr class="col5">
+				<td class="name_td5" id="one01"><a href="person/Zaharchuk_Fedor.html">Захарчук<br>Фёдор</a></td>
+				<td class="space_td_fam" id="one01_02"></td>
+				<td class="name_td5" id="one02"><a href="person/no_info.html">Жена</a></td>
+				<td class="space_td_norm"></td>
+				<td class="name_td5" id="one03"><a href="person/Yrkovskiy_Yakov.html">Юрковский<br>Яков</a></td>
+				<td class="space_td_fam" id="one03_04"></td>
+				<td class="name_td5" id="one04"><a href="person/Zelinskaya_Ekaterina.html">Зелинская<br>Екатерина</a></td>
+			</tr>
+		</table>
+	
+	</div>
+
+	<a href="index.html"><img class="bbutton paused" src="person/img/double-left.gif" alt="Alt"></a>
+
+</body>
+</html>
