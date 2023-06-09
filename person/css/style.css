@@ -4,9 +4,8 @@
 
 .slider {
   position: relative;
-  height: calc((var(--index) * 42)*0.75);
-  width: calc(var(--index) * 42);
-  
+  width: 100%;
+	padding-top: 75%;  
 }
 
 .slider-item {
